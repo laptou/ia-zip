@@ -1,5 +1,8 @@
 # `ia-zip`
 
+![npm](https://img.shields.io/npm/v/ia-zip.svg?style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/ia-zip.svg?style=for-the-badge)
+
 This package provides an API for reading and writing ZIP files.
 
 > **Note**: this package is a work in progress. Right now, you can only read zip files.
