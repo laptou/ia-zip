@@ -1,4 +1,4 @@
-import { FileStream, MemoryStream, Stream } from "./stream";
+import { FileStream, MemoryStream, Stream } from "ia-stream";
 import { Readable } from "stream";
 import * as zlib from "zlib";
 

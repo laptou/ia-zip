@@ -6,7 +6,7 @@
     "test": "mocha",
     "build": "tsc",
     "build:doc": "docts",
-    "prepublish": "npm run build && npm run build:doc"
+    "prepare": "npm run build && npm run build:doc"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "ts-node": "^8.2.0",
     "tslint": "^5.16.0",
     "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "ia-stream": "^0.1.1"
   }
 }
