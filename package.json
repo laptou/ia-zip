@@ -1,0 +1,31 @@
+{
+  "name": "ia-zip",
+  "version": "0.1.0",
+  "description": "Better ZIP parsing for Node.js.",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "build:doc": "docts",
+    "prepublish": "npm run build && npm run build:doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laptou/ia-zip.git"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "laptou",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "~12",
+    "@types/ramda": "^0.26.9",
+    "chai": "^4.2.0",
+    "docts": "^0.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.1"
+  }
+}
